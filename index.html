@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PectiShield™ — Perisai Alami, Segar Lebih Lama | Cairan Pelapis Pascapanen Buah & Sayur</title>
+  <meta name="description" content="PectiShield™ adalah inovasi cairan pelapis edible biopolimer alami berbahan pektin dan kitosan. Melindungi kesegaran buah dan sayuran hingga 2x lebih lama pada suhu ruang tanpa cold chain.">
+  <meta name="keywords" content="PectiShield, edible coating buah, pelapis buah alami, kitosan pektin pascapanen, pengawet alami buah sayur, postharvest coating, pertanian NTB, Mataram">
+  <meta name="author" content="PectiShield Agro-Bio Innovation">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pectishield.id/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pectishield.id/">
+  <meta property="og:title" content="PectiShield™ — Perisai Alami, Segar Lebih Lama">
+  <meta property="og:description" content="Cairan pelapis alami edible biopolimer aman konsumsi. Buah & sayur segar bertahan hingga 2x lebih lama pada suhu ruang tanpa cold chain.">
+  <meta property="og:image" content="https://pectishield.id/assets/hero-lifestyle.jpg">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://pectishield.id/">
+  <meta name="twitter:title" content="PectiShield™ — Perisai Alami, Segar Lebih Lama">
+  <meta name="twitter:description" content="Cairan pelapis alami edible biopolimer aman konsumsi. Buah & sayur segar bertahan hingga 2x lebih lama pada suhu ruang tanpa cold chain.">
+  <meta name="twitter:image" content="https://pectishield.id/assets/hero-lifestyle.jpg">
+
+  <!-- JSON-LD Structured Data for Google Indexing -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pectishield.id/#organization",
+        "name": "PectiShield Agro-Bio Innovation",
+        "url": "https://pectishield.id/",
+        "logo": "https://pectishield.id/assets/product-spray.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+62-877-7742-1044",
+          "contactType": "sales",
+          "areaServed": "ID",
+          "availableLanguage": ["Indonesian", "English"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mataram",
+          "addressRegion": "Nusa Tenggara Barat",
+          "addressCountry": "ID"
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://pectishield.id/#product-spray",
+        "name": "PectiShield™ Trigger Spray 500 ml",
+        "image": "https://pectishield.id/assets/product-spray.jpg",
+        "description": "Cairan pelapis edible bio-coating spray berbahan pektin dan kitosan alami. Siap pakai untuk menjaga kesegaran buah dan sayur hingga 2x lebih lama.",
+        "brand": {
+          "@type": "Brand",
+          "name": "PectiShield™"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://pectishield.id/#produk",
+          "priceCurrency": "IDR",
+          "price": "35000",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://pectishield.id/#product-jerigen",
+        "name": "PectiShield™ Jerigen 5 Liter",
+        "image": "https://pectishield.id/assets/hero-lifestyle.jpg",
+        "description": "Kemasan kemitraan B2B jerigen 5 liter untuk kelompok tani, pengepul, dan eksportir buah.",
+        "brand": {
+          "@type": "Brand",
+          "name": "PectiShield™"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://pectishield.id/#produk",
+          "priceCurrency": "IDR",
+          "price": "275000",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://pectishield.id/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apakah PectiShield™ aman jika tertelan tanpa dicuci?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sangat aman. PectiShield™ dirancang 100% Food Grade dan bersertifikasi aman konsumsi (edible). Seluruh bahannya berasal dari bahan alami (pektin kulit buah, kitosan hasil laut, gliserol nabati, serta vitamin C)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah lapisan mengubah rasa manis, kerenyahan, atau aroma buah?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sama sekali tidak. Lapisan film yang terbentuk berukuran mikroskopis, tidak berbau, bening mengilap alami, dan rasanya sepenuhnya netral."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Berapa hari tambahan masa simpan yang didapatkan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rata-rata kesegaran bertahan 7 hingga 14 hari lebih lama dibanding tanpa pelapis pada suhu ruang kamar (27°C–32°C)."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              200: '#a7f3d0',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+              dark: '#032e23',
+            },
+            citrus: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-gradient-to-r from-emerald-900 via-brand-800 to-emerald-900 text-emerald-100 text-xs py-2 px-4 border-b border-emerald-700/50">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center justify-center bg-emerald-500/20 text-emerald-300 font-bold px-2 py-0.5 rounded-full text-[10px] tracking-wide border border-emerald-500/40">INOVASI AGRO-BIO NTB</span>
+        <span>Perisai Alami Buah & Sayur Segar 2x Lebih Lama Tanpa Cold Chain</span>
+      </div>
+      <div class="flex items-center gap-4 text-emerald-200">
+        <a href="https://wa.me/6287777421044" target="_blank" class="hover:text-white flex items-center gap-1 transition">
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.63c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1 1.48-.07 1.47-.6 1.68-1.18.21-.59.21-1.09.15-1.19-.06-.11-.22-.17-.47-.29z"/></svg>
+          WhatsApp: +62 877-7742-1044
+        </a>
+        <span class="hidden sm:inline">|</span>
+        <span class="hidden sm:inline text-emerald-300">Mataram, NTB</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-600 to-brand-900 flex items-center justify-center shadow-md shadow-emerald-900/20 group-hover:scale-105 transition">
+            <svg class="w-6 h-6 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span class="text-2xl font-black tracking-tight text-slate-900 font-heading">PectiShield<span class="text-emerald-600">™</span></span>
+              <span class="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-1.5 py-0.5 rounded border border-emerald-300">EDIBLE</span>
+            </div>
+            <p class="text-[11px] font-medium text-slate-500 tracking-wide">Perisai Alami, Segar Lebih Lama</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-600">
+          <a href="#keunggulan" class="hover:text-emerald-700 transition">Keunggulan</a>
+          <a href="#formula" class="hover:text-emerald-700 transition">Bahan & Sains</a>
+          <a href="#simulasi" class="hover:text-emerald-700 transition">Uji Kesegaran</a>
+          <a href="#kalkulator" class="hover:text-emerald-700 transition">Kalkulator ROI</a>
+          <a href="#produk" class="hover:text-emerald-700 transition">Produk & Harga</a>
+          <a href="#cara-pakai" class="hover:text-emerald-700 transition">Cara Pakai</a>
+          <a href="#faq" class="hover:text-emerald-700 transition">FAQ</a>
+        </nav>
+
+        <!-- Right Action Buttons -->
+        <div class="flex items-center gap-3">
+          <!-- Free Sample Button -->
+          <button onclick="openSampleModal()" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 rounded-xl transition shadow-sm">
+            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+            Sampel Gratis
+          </button>
+
+          <!-- Cart Button -->
+          <button onclick="openCartDrawer()" class="relative p-2.5 text-slate-700 hover:text-emerald-700 hover:bg-slate-100 rounded-xl transition border border-slate-200">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            <span id="cart-badge" class="absolute -top-1.5 -right-1.5 w-5 h-5 bg-emerald-600 text-white rounded-full text-[11px] font-bold flex items-center justify-center border-2 border-white shadow-sm">1</span>
+          </button>
+
+          <!-- Order Primary CTA -->
+          <a href="#produk" class="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm text-white bg-gradient-to-r from-emerald-600 to-brand-800 hover:from-emerald-700 hover:to-brand-900 shadow-md shadow-emerald-700/25 transition transform active:scale-95">
+            Pesan Sekarang
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+
+          <!-- Mobile Hamburger -->
+          <button onclick="toggleMobileMenu()" class="lg:hidden p-2 text-slate-600 hover:text-slate-900">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-6 space-y-3">
+      <a href="#keunggulan" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">Keunggulan Produk</a>
+      <a href="#formula" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">Bahan & Sains Alami</a>
+      <a href="#simulasi" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">Uji Kesegaran (Before/After)</a>
+      <a href="#kalkulator" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">Kalkulator Penghematan ROI</a>
+      <a href="#produk" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">Produk & Pemesanan</a>
+      <a href="#cara-pakai" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">Panduan Cara Pakai</a>
+      <a href="#faq" class="block py-2 text-sm font-semibold text-slate-700 hover:text-emerald-600">FAQ</a>
+      <div class="pt-2 flex flex-col gap-2">
+        <button onclick="openSampleModal()" class="w-full text-center py-2.5 text-xs font-bold text-emerald-800 bg-emerald-100 rounded-xl">Minta Sampel Uji Coba Gratis</button>
+        <a href="#produk" class="w-full text-center py-2.5 text-xs font-bold text-white bg-emerald-700 rounded-xl">Beli Produk Mulai Rp 35.000</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-emerald-50/60 via-white to-slate-50 pt-8 pb-16 lg:py-20 border-b border-slate-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Text -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-100/80 border border-emerald-300 text-emerald-800 text-xs font-bold tracking-wide">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+            100% Food Grade • Edible Bio-Coating Spray • Mataram NTB
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-[1.15]">
+            Perisai Alami Buah & Sayur, <br class="hidden sm:inline">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-700 to-brand-500">
+              Segar 2x Lebih Lama
+            </span> 
+            Tanpa Cold Chain
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+            <strong>PectiShield™</strong> adalah inovasi cairan pelapis mikroskopis semi-permeabel berbasis biopolimer alami limbah pektin kulit buah dan kitosan. Efektif menghambat laju respirasi, menekan penguapan air (susut bobot), serta melindungi hasil panen dari bakteri dan jamur pembusuk pada suhu ruang.
+          </p>
+
+          <!-- Key Benefit Badges -->
+          <div class="grid grid-cols-3 gap-3 sm:gap-4 pt-2 max-w-lg">
+            <div class="bg-white p-3.5 rounded-2xl border border-slate-200 shadow-sm text-center">
+              <span class="text-2xl font-black text-emerald-700 font-heading">+7–14</span>
+              <p class="text-[11px] font-semibold text-slate-600 leading-tight mt-0.5">Hari Lebih Awet di Suhu Ruang</p>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-slate-200 shadow-sm text-center">
+              <span class="text-2xl font-black text-emerald-700 font-heading">80%</span>
+              <p class="text-[11px] font-semibold text-slate-600 leading-tight mt-0.5">Penekanan Susut Bobot Panen</p>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-slate-200 shadow-sm text-center">
+              <span class="text-2xl font-black text-emerald-700 font-heading">100%</span>
+              <p class="text-[11px] font-semibold text-slate-600 leading-tight mt-0.5">Edible & Aman Dikonsumsi</p>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#produk" class="px-6 py-3.5 rounded-xl font-bold text-sm text-white bg-emerald-700 hover:bg-emerald-800 shadow-lg shadow-emerald-700/30 transition transform hover:-translate-y-0.5">
+              Pesan Sekarang (Mulai Rp 35rb)
+            </a>
+            <a href="#kalkulator" class="px-6 py-3.5 rounded-xl font-bold text-sm text-emerald-900 bg-white hover:bg-slate-50 border border-slate-300 shadow-sm transition">
+              Simulasi Penghematan ROI
+            </a>
+            <button onclick="openSampleModal()" class="px-5 py-3.5 rounded-xl font-bold text-sm text-emerald-700 hover:text-emerald-900 flex items-center gap-1.5 transition">
+              <span>Minta Sampel Gratis</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="flex items-center gap-6 pt-3 text-xs text-slate-500 font-medium">
+            <div class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Tidak Merubah Rasa & Aroma</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Ekonomi Sirkular Berkelanjutan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            <!-- Glow background -->
+            <div class="absolute -inset-4 bg-gradient-to-r from-emerald-400/20 to-teal-400/20 rounded-3xl blur-2xl -z-10"></div>
+            
+            <!-- Main Hero Card with Real Photo -->
+            <div class="bg-white p-3 sm:p-4 rounded-3xl shadow-xl border border-slate-200/80 overflow-hidden relative">
+              <img src="assets/hero-lifestyle.jpg" alt="PectiShield Cairan Pelapis Alami Pascapanen Buah Segar" class="w-full h-[380px] sm:h-[420px] object-cover rounded-2xl">
+              
+              <!-- Floating Card 1: Food Grade Badge -->
+              <div class="absolute top-6 left-6 glass-panel px-3.5 py-2 rounded-xl shadow-lg border border-white/80 flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+                <div>
+                  <p class="text-[10px] font-semibold text-slate-500 uppercase tracking-wider">Keamanan Pangan</p>
+                  <p class="text-xs font-bold text-slate-800">100% Edible & Aman Dimakan</p>
+                </div>
+              </div>
+
+              <!-- Floating Card 2: Spray Coverage -->
+              <div class="absolute bottom-6 right-6 glass-panel px-4 py-2.5 rounded-xl shadow-lg border border-white/80">
+                <p class="text-[10px] font-semibold text-slate-500 uppercase">Daya Sebar 500 ml</p>
+                <p class="text-xs font-bold text-emerald-800">±15–20 kg Buah & Sayur</p>
+              </div>
+            </div>
+
+            <!-- Floating Quick Buy pill below hero photo -->
+            <div class="mt-4 bg-emerald-900 text-white p-4 rounded-2xl shadow-lg flex items-center justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <img src="assets/product-spray.jpg" alt="PectiShield Spray" class="w-12 h-12 rounded-xl object-cover bg-white p-0.5">
+                <div>
+                  <p class="text-xs font-bold">Botol Trigger Spray 500 ml</p>
+                  <p class="text-[11px] text-emerald-200">Hanya <b class="text-white">Rp35.000</b> (Siap Pakai)</p>
+                </div>
+              </div>
+              <button onclick="addToCart('spray-500', 1)" class="px-3.5 py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs rounded-xl transition shadow">
+                + Beli Sekarang
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Unique Value Proposition (UVP) Section -->
+  <section id="keunggulan" class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Nilai Tambah Unggulan</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          Mengapa Petani, Pedagang, & Rumah Tangga Memilih PectiShield™?
+        </h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          Solusi cerdas mengatasi problem susut pascapanen (*postharvest losses*) buah tropis Indonesia yang kerap mencapai 20–40% sebelum sampai ke tangan konsumen.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- UVP 1 -->
+        <div class="bg-slate-50 hover:bg-emerald-50/40 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">100% Food Grade & Edible</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Bebas lilin sintetis (*petroleum wax*) atau fungisida kimia beracun. Aman dikonsumsi langsung bersama buahnya atau cukup dibilas air bersih mengalir.
+          </p>
+        </div>
+
+        <!-- UVP 2 -->
+        <div class="bg-slate-50 hover:bg-emerald-50/40 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">Hemat Listrik Tanpa Cold Chain</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Menunda pembusukan 7–14 hari lebih lama pada suhu ruang (27–32°C). Sangat ideal untuk pengiriman antarpulau tanpa truk berpendingin mahal.
+          </p>
+        </div>
+
+        <!-- UVP 3 -->
+        <div class="bg-slate-50 hover:bg-emerald-50/40 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">Ekonomi Sirkular Ramah Lingkungan</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Diproduksi dari pemanfaatan limbah agroindustri (kulit jeruk/pisang dan cangkang udang lokal NTB), mengurangi limbah organik serta bernilai ekonomi tinggi.
+          </p>
+        </div>
+
+        <!-- UVP 4 -->
+        <div class="bg-slate-50 hover:bg-emerald-50/40 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">Praktis & Sangat Ekonomis</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Hanya butuh beberapa detik untuk menyemprot atau mencelup. Biaya pelapisan hanya <strong>Rp1.700 – Rp2.000 per kilogram</strong> buah/sayur!
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Freshness Simulator (Before vs After) -->
+  <section id="simulasi" class="py-16 sm:py-20 bg-slate-100/70 border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Simulasi Interaktif & Bukti Nyata</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          Uji Perbandingan Kesegaran Pascapanen
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Pilih komoditas buah dan geser timeline hari penyimpanan untuk melihat bagaimana PectiShield™ menjaga kondisi fisik, bobot, dan kesegaran dibanding perlakuan tanpa pelindung.
+        </p>
+      </div>
+
+      <!-- Fruit Selection Tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-8">
+        <button onclick="selectFruit('mangga')" data-fruit="mangga" class="fruit-tab-btn px-4 py-2.5 rounded-xl text-sm font-bold bg-emerald-700 text-white shadow-md flex items-center gap-2 transition">
+          <span>🥭</span> Mangga Arumanis
+        </button>
+        <button onclick="selectFruit('tomat')" data-fruit="tomat" class="fruit-tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 flex items-center gap-2 transition">
+          <span>🍅</span> Tomat Sayur & Cherry
+        </button>
+        <button onclick="selectFruit('cabai')" data-fruit="cabai" class="fruit-tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 flex items-center gap-2 transition">
+          <span>🌶️</span> Cabai Rawit Merah
+        </button>
+        <button onclick="selectFruit('pisang')" data-fruit="pisang" class="fruit-tab-btn px-4 py-2.5 rounded-xl text-sm font-semibold bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 flex items-center gap-2 transition">
+          <span>🍌</span> Pisang Cavendish
+        </button>
+      </div>
+
+      <!-- Day Selector Bar -->
+      <div class="bg-white max-w-xl mx-auto p-2 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between gap-1 mb-8">
+        <span class="text-xs font-bold text-slate-500 uppercase px-3">Timeline Suhu Ruang:</span>
+        <div class="flex items-center gap-1.5">
+          <button onclick="selectDay(1)" data-day="1" class="day-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-600 hover:bg-slate-200 transition">Hari 1</button>
+          <button onclick="selectDay(5)" data-day="5" class="day-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-600 hover:bg-slate-200 transition">Hari 5</button>
+          <button onclick="selectDay(10)" data-day="10" class="day-tab-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-600 text-white shadow transition">Hari 10</button>
+          <button onclick="selectDay(14)" data-day="14" class="day-tab-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-600 hover:bg-slate-200 transition">Hari 14</button>
+        </div>
+      </div>
+
+      <!-- Comparison Display Grid -->
+      <div class="max-w-5xl mx-auto bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xl">
+        <h3 id="sim-fruit-title" class="text-xl sm:text-2xl font-black text-slate-900 mb-6 font-heading flex items-center gap-2 border-b border-slate-100 pb-4">
+          🥭 Mangga Arumanis — Hari ke-10
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+          
+          <!-- Control (Tanpa PectiShield) -->
+          <div class="bg-rose-50/70 border border-rose-200 rounded-2xl p-6 relative flex flex-col justify-between">
+            <div class="absolute top-4 right-4 bg-rose-100 text-rose-800 text-[11px] font-bold px-2.5 py-1 rounded-full border border-rose-300">
+              KONTROL (TANPA COATING)
+            </div>
+            <div>
+              <p class="text-xs font-bold text-rose-600 uppercase tracking-wider mb-1">Status Fisik Buah</p>
+              <h4 id="control-status" class="text-lg font-black text-slate-900 mb-3">Keriput & Muncul Antraknosa Jamur</h4>
+              <p id="control-note" class="text-xs text-slate-600 leading-relaxed mb-6">
+                Kulit cokelat bintik hitam, aroma fermentasi asam mulai terasa akibat laju respirasi tak terkontrol.
+              </p>
+
+              <!-- Metrics -->
+              <div class="space-y-3 bg-white/80 p-4 rounded-xl border border-rose-200/80 text-xs">
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-600 font-medium">Susut Bobot (Air Menguap):</span>
+                  <span id="control-weight" class="font-bold text-rose-700 text-sm">14.8%</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-600 font-medium">Tingkat Kekerasan Daging:</span>
+                  <span id="control-firmness" class="font-bold text-slate-700 text-sm">45% (Lembek)</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-600 font-medium">Infeksi Jamur / Kerusakan:</span>
+                  <span id="control-fungal" class="font-bold text-rose-700 text-sm">45% Area Buah</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-rose-200 flex items-center justify-between text-xs font-bold text-rose-700">
+              <span>Potensi Afkir Pasar:</span>
+              <span class="bg-rose-200 px-2 py-0.5 rounded">Rugi / Jatuh Harga</span>
+            </div>
+          </div>
+
+          <!-- Coated (Dengan PectiShield) -->
+          <div class="bg-emerald-50/80 border-2 border-emerald-500 rounded-2xl p-6 relative flex flex-col justify-between shadow-md">
+            <div class="absolute top-4 right-4 bg-emerald-600 text-white text-[11px] font-bold px-3 py-1 rounded-full shadow-sm flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              DILAPISI PECTISHIELD™
+            </div>
+            <div>
+              <p class="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-1">Status Fisik Buah</p>
+              <h4 id="coated-status" class="text-lg font-black text-slate-900 mb-3">Kondisi Prima & Warna Alami Terjaga</h4>
+              <p id="coated-note" class="text-xs text-slate-600 leading-relaxed mb-6">
+                Kitosan menghambat spora jamur, vitamin C menahan browning, dan pektin mengunci respirasi & kelembapan.
+              </p>
+
+              <!-- Metrics -->
+              <div class="space-y-3 bg-white p-4 rounded-xl border border-emerald-300 text-xs shadow-sm">
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-600 font-medium">Susut Bobot (Air Menguap):</span>
+                  <span id="coated-weight" class="font-bold text-emerald-700 text-sm">2.8% (Sangat Rendah)</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-600 font-medium">Tingkat Kekerasan Daging:</span>
+                  <span id="coated-firmness" class="font-bold text-emerald-800 text-sm">88% (Padat Segar)</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-600 font-medium">Infeksi Jamur / Kerusakan:</span>
+                  <span id="coated-fungal" class="font-bold text-emerald-700 text-sm">0% (Bebas Busuk)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-emerald-300 flex items-center justify-between text-xs font-bold text-emerald-800">
+              <span>Kualitas Display Pasar:</span>
+              <span class="bg-emerald-200 text-emerald-900 px-2 py-0.5 rounded">Grade A Premium (Siap Jual)</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Interactive Visual Before/After Slide-bar -->
+        <div class="mt-10 pt-8 border-t border-slate-200">
+          <div class="flex items-center justify-between mb-3 text-xs font-bold text-slate-600">
+            <span class="text-rose-600">◀ Geser Kiri: Tanpa PectiShield™</span>
+            <span class="text-emerald-700">Geser Kanan: Dengan PectiShield™ ▶</span>
+          </div>
+
+          <div id="comparison-container" class="relative h-64 sm:h-72 w-full rounded-2xl overflow-hidden border border-slate-300 shadow-inner bg-slate-900">
+            <!-- Coated Image (Background) -->
+            <img src="assets/hero-lifestyle.jpg" alt="Dilapisi PectiShield" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute bottom-3 right-3 bg-emerald-900/80 text-white text-[11px] font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+              ✨ Dengan PectiShield™ (Segar Mengkilap)
+            </div>
+
+            <!-- Control Overlay (Simulated rot/drying grayscale & darker tint) -->
+            <div id="comparison-before" class="absolute inset-y-0 left-0 w-1/2 overflow-hidden border-r-2 border-white shadow-2xl transition-all">
+              <img src="assets/hero-lifestyle.jpg" alt="Tanpa PectiShield" class="absolute inset-0 w-full h-full object-cover filter contrast-125 saturate-50 brightness-75 sepia-[0.3]">
+              <div class="absolute bottom-3 left-3 bg-rose-900/80 text-white text-[11px] font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+                ⚠️ Tanpa Pelapis (Mulai Keriput & Bintik)
+              </div>
+            </div>
+
+            <!-- Divider Line with Indicator -->
+            <div id="comparison-divider" class="absolute top-0 bottom-0 left-1/2 -ml-3 w-6 flex items-center justify-center pointer-events-none">
+              <div class="w-7 h-7 bg-white text-slate-800 rounded-full shadow-lg flex items-center justify-center border-2 border-emerald-600 text-xs font-black">
+                ↔
+              </div>
+            </div>
+
+            <!-- Range Slider input for control -->
+            <input id="comparison-range" type="range" min="0" max="100" value="50" class="absolute inset-0 opacity-0 cursor-ew-resize w-full h-full z-10">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive ROI & Savings Calculator -->
+  <section id="kalkulator" class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Kalkulator Penghematan Usaha</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          Hitung Berapa Juta Rupiah yang Dapat Anda Selamatkan
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Sesuaikan skala operasional Anda untuk menghitung penghematan dari penurunan susut busuk buah dan perkiraan laba bersih yang diselamatkan setiap bulannya.
+        </p>
+      </div>
+
+      <div class="max-w-4xl mx-auto bg-gradient-to-br from-slate-900 via-brand-dark to-slate-900 text-white rounded-3xl p-6 sm:p-10 shadow-2xl border border-emerald-800/40">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Inputs Column -->
+          <div class="lg:col-span-7 space-y-6">
+            
+            <!-- Slider 1: Volume Per Minggu -->
+            <div>
+              <div class="flex justify-between items-center text-sm font-semibold mb-2">
+                <span class="text-emerald-200">Volume Panen / Penjualan:</span>
+                <span id="calc-volume-val" class="font-bold text-white bg-emerald-800/60 px-3 py-1 rounded-lg border border-emerald-500/30">500 kg / minggu</span>
+              </div>
+              <input id="calc-volume" type="range" min="50" max="3000" step="50" value="500" class="w-full h-2 bg-emerald-950 rounded-lg cursor-pointer">
+              <div class="flex justify-between text-[11px] text-slate-400 mt-1">
+                <span>50 kg (UMKM Ritel)</span>
+                <span>1.500 kg</span>
+                <span>3.000 kg (Distributor)</span>
+              </div>
+            </div>
+
+            <!-- Slider 2: Harga Komoditas -->
+            <div>
+              <div class="flex justify-between items-center text-sm font-semibold mb-2">
+                <span class="text-emerald-200">Rata-rata Harga Buah/Sayur:</span>
+                <span id="calc-price-val" class="font-bold text-white bg-emerald-800/60 px-3 py-1 rounded-lg border border-emerald-500/30">Rp25.000 / kg</span>
+              </div>
+              <input id="calc-price" type="range" min="10000" max="80000" step="2500" value="25000" class="w-full h-2 bg-emerald-950 rounded-lg cursor-pointer">
+              <div class="flex justify-between text-[11px] text-slate-400 mt-1">
+                <span>Rp10.000 (Tomat/Pisang)</span>
+                <span>Rp45.000</span>
+                <span>Rp80.000 (Mangga Super/Cabai)</span>
+              </div>
+            </div>
+
+            <!-- Slider 3: Tingkat Susut Busuk -->
+            <div>
+              <div class="flex justify-between items-center text-sm font-semibold mb-2">
+                <span class="text-emerald-200">Estimasi Susut/Busuk Normal:</span>
+                <span id="calc-rot-val" class="font-bold text-white bg-emerald-800/60 px-3 py-1 rounded-lg border border-emerald-500/30">18%</span>
+              </div>
+              <input id="calc-rot" type="range" min="5" max="35" step="1" value="18" class="w-full h-2 bg-emerald-950 rounded-lg cursor-pointer">
+              <div class="flex justify-between text-[11px] text-slate-400 mt-1">
+                <span>5% (Minim)</span>
+                <span>18% (Rata-rata Pasar)</span>
+                <span>35% (Jalur Distribusi Jauh)</span>
+              </div>
+            </div>
+
+            <div class="pt-2 text-xs text-emerald-300/80 bg-emerald-950/40 p-3.5 rounded-xl border border-emerald-800/50">
+              💡 <em>Catatan:</em> PectiShield™ terbukti menekan susut bobot dan pembusukan hingga 75%. Daya sebar 1 Liter cairan melindungi ±35 kg komoditas buah/sayur segar.
+            </div>
+
+          </div>
+
+          <!-- Calculation Result Card -->
+          <div class="lg:col-span-5 bg-white text-slate-900 rounded-2xl p-6 shadow-xl border border-emerald-300 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-xs font-bold uppercase text-slate-500 tracking-wider">Hasil Proyeksi / Bulan</span>
+                <span id="roi-percent-badge" class="bg-emerald-100 text-emerald-800 font-extrabold text-xs px-2.5 py-1 rounded-full border border-emerald-300">
+                  ROI 420%
+                </span>
+              </div>
+
+              <!-- Savings Row -->
+              <div class="mb-4">
+                <p class="text-xs text-slate-500">Nilai Susut yang Diselamatkan:</p>
+                <p id="roi-saved-loss" class="text-2xl font-black text-emerald-700 font-heading">Rp 7.087.500</p>
+              </div>
+
+              <!-- Cost Row -->
+              <div class="mb-4 text-xs pb-3 border-b border-slate-200 flex justify-between items-center text-slate-600">
+                <span>Biaya PectiShield™:</span>
+                <span id="roi-cost" class="font-bold text-slate-800">Rp 3.300.000</span>
+              </div>
+
+              <!-- Net Profit Highlight -->
+              <div class="bg-emerald-50 p-3.5 rounded-xl border border-emerald-200 mb-4">
+                <p class="text-[11px] font-bold text-emerald-800 uppercase">Potensi Tambahan Laba Bersih:</p>
+                <p id="roi-net-profit" class="text-2xl font-extrabold text-emerald-800 font-heading">Rp 3.787.500</p>
+                <p class="text-[10px] text-emerald-700 mt-0.5">Uang yang tidak hilang akibat buah busuk di gudang.</p>
+              </div>
+
+              <p id="roi-recommendation" class="text-xs font-semibold text-slate-600 mb-4">
+                Rekomendasi Paket: 12 Jerigen 5 Liter/bulan (Skala Hemat B2B)
+              </p>
+            </div>
+
+            <a href="#produk" class="w-full text-center py-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl shadow-md transition">
+              Beli Paket Kebutuhan Anda
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Science & Ingredients Section -->
+  <section id="formula" class="py-16 sm:py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Bahan Baku & Teknologi</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          4 Bahan Alami Pembentuk Perisai Mikroskopis
+        </h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          Formula PectiShield™ memadukan biopolimer alami yang membentuk lapisan semi-permeabel transparan tanpa menutup pori-pori buah secara total, memungkinkan buah tetap "bernapas" dalam ritme lambat.
+        </p>
+      </div>
+
+      <!-- 4 Ingredients Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        
+        <!-- Ingredient 1 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold text-xl mb-4">
+            🍊
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 font-heading">Ekstrak Pektin Kulit Buah</h3>
+          <p class="text-xs text-emerald-700 font-bold mb-2">Matriks Lapisan Pelindung</p>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Diekstraksi dari limbah kulit jeruk dan pisang. Berfungsi sebagai tulang punggung (matriks) pembentuk film tipis transparan semi-permeabel yang menahan penguapan air.
+          </p>
+        </div>
+
+        <!-- Ingredient 2 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-800 flex items-center justify-center font-bold text-xl mb-4">
+            🦐
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 font-heading">Kitosan (Chitosan) Alami</h3>
+          <p class="text-xs text-emerald-700 font-bold mb-2">Agen Antimikroba & Antijamur</p>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Berasal dari limbah cangkang kepiting dan udang laut. Merupakan biopestisida alami yang merusak dinding sel jamur pembusuk (*Colletotrichum*) dan bakteri penyebab busuk basah.
+          </p>
+        </div>
+
+        <!-- Ingredient 3 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold text-xl mb-4">
+            🌱
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 font-heading">Gliserol Nabati Food Grade</h3>
+          <p class="text-xs text-emerald-700 font-bold mb-2">Plasticizer Fleksibel</p>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Menjadikan lapisan pelapis lentur dan elastis. Mencegah lapisan retak ketika buah memuai, menyusut, atau mengalami guncangan gesekan saat perjalanan distribusi.
+          </p>
+        </div>
+
+        <!-- Ingredient 4 -->
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold text-xl mb-4">
+            🍋
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 font-heading">Vitamin C & Asam Asetat</h3>
+          <p class="text-xs text-emerald-700 font-bold mb-2">Antioksidan & Anti-Browning</p>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Menonaktifkan enzim polifenol oksidase (PPO) yang memicu warna cokelat (*browning*) pada buah serta bertindak sebagai pelarut alami yang aman bagi pencernaan manusia.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Microscopic Mechanism Diagram Card -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-lg">
+        <h3 class="text-xl font-bold text-slate-900 mb-6 font-heading text-center">
+          Bagaimana Lapisan PectiShield™ Bekerja di Permukaan Buah?
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+            <div class="w-10 h-10 mx-auto rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center mb-3">1</div>
+            <h4 class="font-bold text-sm text-slate-900 mb-1">Menidurkan Laju Respirasi</h4>
+            <p class="text-xs text-slate-600">
+              Mengontrol difusi gas O₂ dan CO₂. Buah "bernapas" jauh lebih pelan sehingga energi gula dan cadangan nutrisi buah tidak lekas habis terbakar.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+            <div class="w-10 h-10 mx-auto rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center mb-3">2</div>
+            <h4 class="font-bold text-sm text-slate-900 mb-1">Mengunci Transpirasi Air</h4>
+            <p class="text-xs text-slate-600">
+              Menahan laju penguapan molekul air dari dalam sel buah. Buah tetap berbobot penuh, tidak kisut/keriput, dan bobot timbangan saat dijual tetap optimal.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 text-center">
+            <div class="w-10 h-10 mx-auto rounded-full bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center mb-3">3</div>
+            <h4 class="font-bold text-sm text-slate-900 mb-1">Perisai Antimikroba Aktif</h4>
+            <p class="text-xs text-slate-600">
+              Gugus amina kitosan bermuatan positif melekat kuat dan merusak membran patogen jamur dan bakteri, mencegah pembusukan sejak dini.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Application Guide (Cara Pakai) -->
+  <section id="cara-pakai" class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Panduan Praktis</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          3 Langkah Mudah Aplikasi Pascapanen
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Dapat diaplikasikan langsung di kebun, gudang pengepul, lapak pasar tradisional, maupun dapur rumah.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Step 1 -->
+        <div class="relative bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-700 text-white font-black text-xl flex items-center justify-center mb-5 font-heading">
+            01
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">Bersihkan & Tiriskan</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Pilah buah yang sehat (bebas luka sobek parah). Cuci bersih dari debu atau getah panen dengan air mengalir, lalu tiriskan hingga permukaan tidak lagi berair deras.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="relative bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-700 text-white font-black text-xl flex items-center justify-center mb-5 font-heading">
+            02
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">Semprot atau Celup</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <strong>Metode Semprot:</strong> Semprotkan PectiShield™ secara merata dengan jarak 15–20 cm.<br>
+            <strong>Metode Celup (B2B):</strong> Celupkan buah ke dalam bak larutan selama 10–15 detik.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="relative bg-slate-50 p-6 rounded-2xl border border-slate-200 hover:border-emerald-300 transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-700 text-white font-black text-xl flex items-center justify-center mb-5 font-heading">
+            03
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2 font-heading">Kering-Anginkan & Simpan</h3>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Biarkan di tempat berangin selama 2–3 menit hingga lapisan mikroskopis transparan mengering sempurna. Buah siap disimpan pada suhu ruang atau dikemas dalam kardus kirim!
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Real Photo & Visual Production Guide Section -->
+  <section class="py-12 bg-emerald-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <div class="lg:col-span-8 space-y-3">
+          <div class="inline-flex items-center gap-2 bg-emerald-800 text-emerald-200 text-xs font-bold px-3 py-1 rounded-full border border-emerald-700">
+            📸 Dokumentasi & Foto Asli Kemasan
+          </div>
+          <h3 class="text-2xl sm:text-3xl font-extrabold font-heading">
+            Kemasan Riil Terpasang Siap Distribusi
+          </h3>
+          <p class="text-xs sm:text-sm text-emerald-200 leading-relaxed">
+            Botol semprot 500 ml dirancang khusus dengan botol putih solid berkualitas untuk menjaga kestabilan formula bio-coating dari pengaruh degradasi cahaya langsung. Label mencantumkan instruksi jelas, logo perisai daun PectiShield™, dan penanda <strong>"AMAN DIKONSUMSI"</strong>.
+          </p>
+          <ul class="text-xs text-emerald-100 space-y-1.5 pt-1">
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Label telah teruji daya lekat dan tahan lembap di suhu ruang maupun ruangan pendingin.</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span>Pengambilan foto dilakukan dengan pencahayaan alami bersama komoditas buah segar (mangga, tomat, cabai).</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4 flex justify-center">
+          <div class="bg-white p-3 rounded-2xl shadow-xl w-64 text-center">
+            <img src="assets/product-spray.jpg" alt="Botol Trigger Spray PectiShield 500ml" class="h-60 mx-auto object-contain">
+            <p class="text-xs font-bold text-slate-800 mt-2">Botol Trigger Spray 500 ml</p>
+            <p class="text-[11px] text-emerald-700 font-semibold">Rp35.000 / botol</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Catalog & Pricing Section -->
+  <section id="produk" class="py-16 sm:py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Pilihan Produk & Pemesanan</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          Pesan PectiShield™ Langsung dari Produsen
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Tersedia kemasan botol semprot praktis untuk skala ritel hingga jerigen volume besar untuk kelompok tani dan eksportir.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
+        
+        <!-- Product 1: 500ml Trigger Spray -->
+        <div class="bg-white rounded-3xl border-2 border-emerald-500/80 p-6 sm:p-8 flex flex-col justify-between shadow-xl relative">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-emerald-600 text-white font-bold text-[11px] px-4 py-1 rounded-full uppercase tracking-wider shadow">
+            Paling Populer & Praktis
+          </div>
+
+          <div>
+            <div class="bg-slate-100/60 rounded-2xl p-4 mb-6 text-center">
+              <img src="assets/product-spray.jpg" alt="Botol Trigger Spray PectiShield 500 ml" class="h-48 mx-auto object-contain">
+            </div>
+
+            <p class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Kemasan Siap Pakai (Ready to Use)</p>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mt-1">Botol Trigger Spray 500 ml</h3>
+            <p class="text-xs text-slate-500 mt-1">Daya sebar: <b>±15–20 kg</b> buah / sayuran</p>
+
+            <div class="my-5 pb-5 border-b border-slate-100">
+              <div class="flex items-baseline gap-1">
+                <span class="text-3xl font-black text-slate-900 font-heading">Rp 35.000</span>
+                <span class="text-xs text-slate-500 font-semibold">/ botol</span>
+              </div>
+              <p class="text-[11px] text-emerald-700 font-medium mt-1">Hanya ~Rp1.750 per kilogram buah!</p>
+            </div>
+
+            <ul class="space-y-2.5 text-xs text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Trigger spray ergonomis semburan halus merata</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Cocok untuk UMKM, pedagang pasar, & rumah tangga</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Langsung pakai tanpa perlu alat tambahan</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-2 pt-2">
+            <button onclick="addToCart('spray-500', 1)" class="w-full py-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl shadow-md transition">
+              + Tambah ke Keranjang
+            </button>
+            <button onclick="quickBuy('spray-500')" class="w-full py-2.5 bg-emerald-100 hover:bg-emerald-200 text-emerald-900 font-bold text-xs rounded-xl transition">
+              Beli Langsung via WA
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2: Jerigen 5 Liter -->
+        <div class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 flex flex-col justify-between shadow-lg relative hover:border-emerald-400 transition">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 font-bold text-[11px] px-4 py-1 rounded-full uppercase tracking-wider shadow">
+            Hemat Rp 75.000 (Skala B2B)
+          </div>
+
+          <div>
+            <div class="bg-slate-100/60 rounded-2xl p-4 mb-6 text-center">
+              <img src="assets/hero-lifestyle.jpg" alt="Jerigen 5 Liter PectiShield" class="h-48 w-full object-cover rounded-xl">
+            </div>
+
+            <p class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Skala Kemitraan & Grosir</p>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mt-1">Kemasan Jerigen 5 Liter</h3>
+            <p class="text-xs text-slate-500 mt-1">Daya sebar: <b>±150–200 kg</b> buah / sayuran</p>
+
+            <div class="my-5 pb-5 border-b border-slate-100">
+              <div class="flex items-baseline gap-1">
+                <span class="text-3xl font-black text-slate-900 font-heading">Rp 275.000</span>
+                <span class="text-xs text-slate-500 font-semibold">/ jerigen</span>
+              </div>
+              <p class="text-[11px] text-emerald-700 font-medium mt-1">Hanya ~Rp1.375 per kg komoditas!</p>
+            </div>
+
+            <ul class="space-y-2.5 text-xs text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Ideal untuk metode celup (dipping) & sprayer kebun</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Khusus kelompok tani, pengepul, & eksportir</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Segel ganda anti tumpah aman ekspedisi</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-2 pt-2">
+            <button onclick="addToCart('jerigen-5l', 1)" class="w-full py-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl shadow-md transition">
+              + Tambah ke Keranjang
+            </button>
+            <button onclick="quickBuy('jerigen-5l')" class="w-full py-2.5 bg-emerald-100 hover:bg-emerald-200 text-emerald-900 font-bold text-xs rounded-xl transition">
+              Beli Langsung via WA
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 3: Free Trial Sample -->
+        <div class="bg-gradient-to-b from-slate-50 to-white rounded-3xl border border-dashed border-emerald-300 p-6 sm:p-8 flex flex-col justify-between shadow-sm relative">
+          <div>
+            <div class="bg-emerald-50 rounded-2xl p-4 mb-6 text-center border border-emerald-100">
+              <span class="text-4xl">🧪</span>
+              <p class="text-xs font-bold text-emerald-800 mt-2">Sample Box (100 ml)</p>
+            </div>
+
+            <p class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Khusus Pengujian Mandiri</p>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mt-1">Paket Sampel Trial Gratis</h3>
+            <p class="text-xs text-slate-500 mt-1">Daya sebar uji coba: <b>±3–5 kg</b> buah</p>
+
+            <div class="my-5 pb-5 border-b border-slate-100">
+              <div class="flex items-baseline gap-1">
+                <span class="text-3xl font-black text-emerald-700 font-heading">Rp 0</span>
+                <span class="text-xs text-slate-500 font-semibold">(Gratis Produk)</span>
+              </div>
+              <p class="text-[11px] text-slate-500 font-medium mt-1">Cukup ganti ongkir atau ambil di Mataram</p>
+            </div>
+
+            <ul class="space-y-2.5 text-xs text-slate-600 mb-6">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Buktikan sendiri efektivitas pada panen Anda</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Termasuk panduan uji komparasi kontrol</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Konsultasi pascapanen gratis bersama tim teknis</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-2">
+            <button onclick="openSampleModal()" class="w-full py-3 bg-white hover:bg-emerald-50 border-2 border-emerald-600 text-emerald-800 font-bold text-xs rounded-xl transition">
+              Ajukan Sampel Gratis
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-16 sm:py-20 bg-white border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold text-emerald-700 tracking-widest uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">Pertanyaan Populer</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 font-heading tracking-tight">
+          Hal yang Sering Ditanyakan (FAQ)
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200 open:bg-emerald-50/40 transition">
+          <summary class="flex items-center justify-between font-bold text-slate-900 cursor-pointer list-none text-sm sm:text-base">
+            <span>Apakah PectiShield™ aman jika tertelan tanpa dicuci?</span>
+            <span class="text-emerald-600 transition group-open:rotate-180">▼</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Sangat aman. PectiShield™ dirancang 100% <em>Food Grade</em> dan bersertifikasi aman konsumsi (<em>edible</em>). Seluruh bahannya berasal dari bahan alami (pektin kulit buah, kitosan hasil laut, gliserol nabati, serta vitamin C) yang dapat dicerna tubuh secara alami. Namun untuk kebersihan umum, membilas dengan air mengalir tetap disarankan.
+          </p>
+        </details>
+
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200 open:bg-emerald-50/40 transition">
+          <summary class="flex items-center justify-between font-bold text-slate-900 cursor-pointer list-none text-sm sm:text-base">
+            <span>Apakah lapisan mengubah rasa manis, kerenyahan, atau aroma buah?</span>
+            <span class="text-emerald-600 transition group-open:rotate-180">▼</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Sama sekali tidak. Lapisan film yang terbentuk berukuran mikroskopis (hanya beberapa mikron), tidak berbau, bening mengilap alami, dan memiliki rasa yang sepenuhnya netral. Buah tetap mempertahankan aroma dan manis alaminya.
+          </p>
+        </details>
+
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200 open:bg-emerald-50/40 transition">
+          <summary class="flex items-center justify-between font-bold text-slate-900 cursor-pointer list-none text-sm sm:text-base">
+            <span>Berapa hari tambahan masa simpan yang didapatkan?</span>
+            <span class="text-emerald-600 transition group-open:rotate-180">▼</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Rata-rata kesegaran bertahan <strong>7 hingga 14 hari lebih lama</strong> dibanding tanpa pelapis pada suhu ruang kamar (27°C–32°C). Sebagai contoh: cabai rawit yang umumnya mulai keriput di hari ke-4 dapat bertahan segar prima hingga hari ke-12 sampai ke-14.
+          </p>
+        </details>
+
+        <details class="group bg-slate-50 p-5 rounded-2xl border border-slate-200 open:bg-emerald-50/40 transition">
+          <summary class="flex items-center justify-between font-bold text-slate-900 cursor-pointer list-none text-sm sm:text-base">
+            <span>Apakah melayani pengiriman ke luar pulau Lombok/NTB?</span>
+            <span class="text-emerald-600 transition group-open:rotate-180">▼</span>
+          </summary>
+          <p class="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
+            Ya, kami mengirim ke seluruh Indonesia dari workshop produksi kami di Mataram, Nusa Tenggara Barat. Kemasan jerigen maupun botol semprot disegel rapat dengan lapisan pengaman untuk memastikan cairan tidak bocor selama perjalanan ekspedisi darat, laut, maupun udara.
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Production Info & Footer -->
+  <footer class="bg-slate-900 text-white pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 mb-12">
+        
+        <!-- Brand Summary -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <span class="text-2xl font-black font-heading tracking-tight">PectiShield<span class="text-emerald-400">™</span></span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
+            Inovasi cairan pelapis biopolimer alami mikroskopis semi-permeabel pencegah pembusukan pascapanen buah & sayur segar. 100% Food Grade, ramah lingkungan, dan berbasis ekonomi sirkular lokal.
+          </p>
+          <div class="text-xs text-emerald-400 font-semibold pt-1">
+            "Perisai Alami, Segar Lebih Lama"
+          </div>
+        </div>
+
+        <!-- Production Unit Contact Details -->
+        <div class="lg:col-span-4 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider font-heading">Informasi Produsen & Lokasi</h4>
+          <div class="space-y-2 text-xs text-slate-300">
+            <p class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">🏢 Produsen:</span>
+              <span>PectiShield Agro-Bio Innovation</span>
+            </p>
+            <p class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">📍 Lokasi:</span>
+              <span>Mataram, Nusa Tenggara Barat, Indonesia</span>
+            </p>
+            <p class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">📱 WhatsApp:</span>
+              <a href="https://wa.me/6287777421044" target="_blank" class="hover:text-emerald-300 underline">+62 877-7742-1044</a>
+            </p>
+            <p class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">✉️ Email:</span>
+              <a href="mailto:halo@pectishield.id" class="hover:text-emerald-300">halo@pectishield.id</a>
+            </p>
+            <p class="flex items-start gap-2">
+              <span class="text-emerald-400 font-bold">📸 Instagram:</span>
+              <a href="https://instagram.com/pectishield.id" target="_blank" class="hover:text-emerald-300">@pectishield.id</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-sm font-bold text-white uppercase tracking-wider font-heading">Akses Cepat</h4>
+          <ul class="space-y-2 text-xs text-slate-400">
+            <li><a href="#keunggulan" class="hover:text-white transition">Nilai Tambah & UVP</a></li>
+            <li><a href="#simulasi" class="hover:text-white transition">Simulator Kesegaran</a></li>
+            <li><a href="#kalkulator" class="hover:text-white transition">Kalkulator Penghematan</a></li>
+            <li><a href="#produk" class="hover:text-white transition">Pilihan Paket & Harga</a></li>
+            <li><button onclick="openSampleModal()" class="hover:text-white transition text-left">Pengajuan Sampel Uji Coba</button></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>© 2026 PectiShield™ Agro-Bio Innovation. Hak Cipta Dilindungi Undang-Undang.</p>
+        <p class="text-emerald-400 font-medium">Mataram, Nusa Tenggara Barat (NTB) — Indonesia</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Slide-Over Shopping Cart Drawer -->
+  <div id="cart-backdrop" onclick="closeCartDrawer()" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300"></div>
+
+  <div id="cart-drawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+    <!-- Drawer Header -->
+    <div class="p-4 sm:p-5 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+        <h3 class="font-bold text-slate-900 font-heading">Keranjang Belanja PectiShield™</h3>
+      </div>
+      <button onclick="closeCartDrawer()" class="p-1 text-slate-400 hover:text-slate-700 rounded-lg">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <!-- Items List -->
+    <div class="flex-1 overflow-y-auto p-4 sm:p-5 space-y-3">
+      <div id="cart-items-container" class="space-y-3">
+        <!-- Rendered via JS -->
+      </div>
+
+      <div id="cart-empty-state" class="hidden text-center py-16 text-slate-400">
+        <svg class="w-16 h-16 mx-auto mb-3 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+        <p class="font-bold text-slate-600 text-sm">Keranjang Anda Masih Kosong</p>
+        <p class="text-xs text-slate-400 mt-1">Pilih kemasan PectiShield™ yang sesuai dengan kebutuhan Anda.</p>
+        <button onclick="closeCartDrawer()" class="mt-4 px-4 py-2 bg-emerald-700 text-white rounded-xl text-xs font-bold">
+          Lihat Produk
+        </button>
+      </div>
+    </div>
+
+    <!-- Drawer Footer -->
+    <div id="cart-footer" class="p-4 sm:p-5 border-t border-slate-200 bg-slate-50 space-y-3">
+      <div class="flex justify-between items-center">
+        <span class="text-xs font-semibold text-slate-600">Subtotal Pesanan:</span>
+        <span id="cart-subtotal" class="text-lg font-black text-slate-900 font-heading">Rp 35.000</span>
+      </div>
+      <p class="text-[11px] text-slate-500">*Biaya pengiriman dihitung berdasarkan lokasi alamat tujuan dari Mataram, NTB.</p>
+      
+      <button onclick="openCheckoutModal()" class="w-full py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl shadow-lg shadow-emerald-700/25 transition flex items-center justify-center gap-2">
+        <span>Lanjut ke Formulir Pemesanan</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Checkout & WhatsApp Order Modal -->
+  <div id="checkout-modal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative max-h-[90vh] overflow-y-auto">
+      <button onclick="closeCheckoutModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+
+      <div class="mb-5">
+        <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Langkah Terakhir</span>
+        <h3 class="text-xl font-black text-slate-900 font-heading mt-1">Data Pengiriman & Pemesanan</h3>
+        <p class="text-xs text-slate-500 mt-1">Pesanan Anda akan langsung diformat dan diteruskan ke WhatsApp Admin resmi PectiShield™ Mataram.</p>
+      </div>
+
+      <!-- Order Summary in Checkout -->
+      <div id="checkout-order-summary"></div>
+
+      <!-- Buyer Form -->
+      <form onsubmit="submitWhatsAppOrder(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Nama Lengkap / Nama Usaha *</label>
+          <input type="text" id="buyer-name" required placeholder="Contoh: Budi Santoso (Kelompok Tani Berkah)" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Nomor WhatsApp Aktif *</label>
+          <input type="tel" id="buyer-phone" required placeholder="Contoh: 081234567890" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Alamat Lengkap Pengiriman (Kota/Kabupaten) *</label>
+          <textarea id="buyer-address" rows="3" required placeholder="Nama jalan, nomor, kelurahan, kecamatan, kota/kabupaten, kode pos" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none"></textarea>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Catatan Tambahan (Opsional)</label>
+          <input type="text" id="buyer-notes" placeholder="Contoh: Untuk komoditas mangga harum manis 500 kg" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+        </div>
+
+        <button type="submit" class="w-full py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-lg shadow-emerald-600/30 transition flex items-center justify-center gap-2">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.63c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1 1.48-.07 1.47-.6 1.68-1.18.21-.59.21-1.09.15-1.19-.06-.11-.22-.17-.47-.29z"/></svg>
+          Kirim Pesanan via WhatsApp (+62 877-7742-1044)
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Free Trial Sample Modal -->
+  <div id="sample-modal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative">
+      <button onclick="closeSampleModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+
+      <div class="mb-5">
+        <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Uji Coba Mandiri</span>
+        <h3 class="text-xl font-black text-slate-900 font-heading mt-1">Pengajuan Sampel Gratis 100 ml</h3>
+        <p class="text-xs text-slate-500 mt-1">Khusus bagi petani, kelompok tani, pengepul, atau pedagang buah/sayur yang ingin membuktikan daya tahan simpan sebelum order massal.</p>
+      </div>
+
+      <form id="sample-request-form" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Nama Pemohon / Kelompok Tani *</label>
+          <input type="text" id="sample-farm-name" required placeholder="Contoh: Pak Agus (Kelompok Tani Sembalun)" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Komoditas yang Ingin Diuji *</label>
+          <input type="text" id="sample-fruit-type" required placeholder="Contoh: Mangga Arumanis, Tomat Cherry, Cabai Rawit" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">No. WhatsApp *</label>
+            <input type="tel" id="sample-phone" required placeholder="08xxxxxxxxxx" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Kota / Domisili *</label>
+            <input type="text" id="sample-city" required placeholder="Contoh: Mataram / Lombok Barat" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none">
+          </div>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl shadow-lg transition">
+          Kirim Pengajuan Sampel via WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Alert -->
+  <div id="app-toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-slate-900 text-white px-5 py-3 rounded-2xl shadow-2xl border border-slate-700 text-xs font-semibold flex items-center gap-2.5 pointer-events-none opacity-0 translate-y-4 transition-all duration-300">
+    <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+    <span id="toast-text">Notifikasi</span>
+  </div>
+
+  <!-- Floating Direct WhatsApp Button -->
+  <a href="https://wa.me/6287777421044?text=Halo%20Admin%20PectiShield%20Agro-Bio%20Innovation%2C%20saya%20ingin%20konsultasi%20mengenai%20produk%20pelapis%20buah%20PectiShield." target="_blank" class="fixed bottom-6 right-6 z-40 bg-emerald-600 hover:bg-emerald-500 text-white p-3.5 rounded-full shadow-2xl hover:scale-105 transition flex items-center gap-2 group border-2 border-white">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.63c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1 1.48-.07 1.47-.6 1.68-1.18.21-.59.21-1.09.15-1.19-.06-.11-.22-.17-.47-.29z"/></svg>
+    <span class="hidden group-hover:inline-block font-bold text-xs pr-1">Chat WhatsApp Admin</span>
+  </a>
+
+  <!-- Main JavaScript App -->
+  <script src="js/app.js"></script>
+</body>
+</html>
